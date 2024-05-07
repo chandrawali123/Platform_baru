@@ -1,0 +1,42 @@
+body {
+    background-image: url('gb.png'); /* Ganti 'gambar-background.jpg' dengan URL atau path relatif gambar latar belakang Anda */
+    background-size: cover; /* Untuk memastikan gambar latar belakang mengisi seluruh area body */
+    background-position: center; /* Posisi gambar latar belakang di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar latar belakang */
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.error {
+    color: red;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
